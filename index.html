@@ -11,62 +11,96 @@
 </head>
 
 <body>
-    <header>
-        <a href="/"><img src="assets/logo.svg" alt="" height="50"></a>
-        <h1>Electronic Library</h1>
+    <!-- <header>
         <h3>Descarga libros y entérate de noticias acerca de la literatura</h3>
-    </header>
+        <h1>Electronic Library</h1>
+    </header> -->
 
     <nav>
-        <ul>
+        <a href="/"><img src="assets/logo.svg" class="logo"></a>
+        <div class="separator"></div>
+        <ul id="nav-menu">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Descargas</a></li>
-            <li><a href="#about">Acerca de Nosotros</a></li>
+            <li><a href="#about">Acerca</a></li>
             <li><a href="#contact">Contactenos</a></li>
         </ul>
     </nav>
 
-    <main>
+    <section class="welcome">
+        <div class="button-next rounded-button bg-blue">
+            <a href="#section-main">
+                <img src="assets/expand.svg" alt="next-section">
+            </a>
+        </div>
+    </section>
+
+    <main id="section-main">
         <section>
             <article>
                 <h2>¿Por qué leer un libro?</h2>
-                <h3>Historia de los libros</h3>
-                <p>
-                    <a href="http://google.com">Lorem</a> ipsum dolor sit amet, consectetur adipisicing elit.
-                    Consequatur,
-                    molestiae recusandae maxime
-                    voluptate eum at laboriosam architecto! Eius pariatur labore perspiciatis inventore, quisquam
-                    distinctio
-                    repellat alias impedit explicabo. Accusantium, quaerat.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, molestiae recusandae maxime
-                    voluptate eum at laboriosam architecto! Eius pariatur labore perspiciatis inventore, quisquam
-                    distinctio
-                    repellat alias impedit explicabo. Accusantium, quaerat.
-                </p>
-                <h3>Libros en la actualidad</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, molestiae recusandae maxime
-                    voluptate eum at laboriosam architecto! Eius pariatur labore perspiciatis inventore, quisquam
-                    distinctio
-                    repellat alias impedit explicabo. Accusantium, quaerat.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, molestiae recusandae maxime
-                    voluptate eum at laboriosam architecto! Eius pariatur labore perspiciatis inventore, quisquam
-                    distinctio
-                    repellat alias impedit explicabo. Accusantium, quaerat.
-                </p>
+                <div class="tema">
+                    <pre></pre>
+                </div>
+                <div class="tema">
+                    <h3>Libros en la actualidad</h3>
+                    <p>Para hablar de la historia del libro hay que tener en cuenta cuáles son las características con
+                        las cuales definir qué es un libro, ya que a día de hoy no existe un acuerdo común en cuanto a
+                        las limitaciones y metodologías, así como en los objetivos y las disciplinas que intervienen en
+                        el estudio de la historia de estos. Tal como definió la <b>UNESCO</b> para fines estadísticos,
+                        un libro
+                        debe cumplir con las siguientes características: Debe ser una publicación impresa no periódica,
+                        debe tener, como mínimo, 49 páginas y debe estar editada en el país y puesta a disposición del
+                        público.</p>
+                    <p>Ahora bien ¿Cuándo se inventó el primer libro? La historia del libro, o de cuándo se inventó el
+                        primer libro, puede tener su origen en la antigua Mesopotamia. La forma de libro más antigua,
+                        según los historiadores, consistía en aquellas pequeñas tablillas de arcilla, madera, marfil u
+                        otros materiales que se utilizaban como soporte para la escritura. Aunque no se tiene constancia
+                        de ello, probablemente el primer libro de la historia puede tener su origen en la antigua
+                        civilización mesopotámica por los sumerios en el IV milenio a.C. —según este formato, como medio
+                        de comunicación—.</p>
+                    <p>El origen y evolución del libro en la antigüedad continúa en Egipto, donde se cree que se comenzó
+                        a utilizar la tinta por primera vez, así como el soporte de papiro —el cual comparte unas
+                        características muy similares con el papel y era obtenido de una planta acuática que crecía a
+                        orillas del Nilo—. El libro egipcio puede considerarse como la segunda forma de libro en la
+                        historia. Continuando con la explicación sobre el origen y la evolución del libro, el siguiente
+                        lugar donde debemos fijarnos es en Grecia. En esta región se empezó a utilizar el papiro hacia
+                        el siglo VII a.C. Este convivió con otros materiales como las tablillas de madera rehundida, que
+                        eran rellenadas de cera o de pergamino —aunque también las pieles utilizadas como soporte de
+                        escritura—. Las constantes relaciones comerciales entre Egipto y Roma dieron paso, por otro
+                        lado, a que el pergamino también se extendiera en esta zona del mapa. Ahora bien, el pergamino
+                        fue cayendo poco a poco en desuso, hasta que desapareció por completo en el país. A finales del
+                        siglo V d.C. este fue sustituido por el códice de pergamino en el cual se podía escribir por las
+                        dos caras.</p>
+                    Ahora bien, el origen y la evolución del libro tiene su origen más exacto en la Edad Media —antes de
+                    que fuera inventada la imprenta en 1440 por Johannes Gutenberg, fecha en cual hubo una expansión
+                    descontrolada por toda Europa en lo referente a la impresión de los libros—. Durante la Edad Media,
+                    no obstante, se comenzaron a escribir una gran cantidad de libros. La iglesia fue la institución que
+                    se ocupó de transmitir y de conservar la cultura según la doctrina de la fe. Se crearon monasterios
+                    donde se promovía la lectura, la copia y la conservación de manuscritos. De hecho, la producción de
+                    los códices en los monasterios era realizados a gran escala en unas salas específicas para ello que
+                    recibían el nombre de escriptorios —o scriptorium, en latín—.
+
+
+                </div>
             </article>
         </section>
 
         <section id="about">
             <h2>Acerca de Nosotros</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quod doloremque rerum perspiciatis
+                quaerat ipsum eaque inventore, adipisci molestiae! Natus laboriosam modi ex dignissimos at nobis
+                voluptate accusamus itaque sequi.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quod doloremque rerum perspiciatis
+                quaerat ipsum eaque inventore, adipisci molestiae! Natus laboriosam modi ex dignissimos at nobis
+                voluptate accusamus itaque sequi.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus quod doloremque rerum perspiciatis
+                quaerat ipsum eaque inventore, adipisci molestiae! Natus laboriosam modi ex dignissimos at nobis
+                voluptate accusamus itaque sequi.</p>
         </section>
 
         <section id="contact">
-            <form action="/" method="post">
+            <form action="/" method="post" id="contact-form">
                 <label for="email">email</label>
                 <input type="email" name="email" id="input-email">
                 <br>
